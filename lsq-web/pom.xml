@@ -16,6 +16,17 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
+  <!-- 项目之间依赖 
+  	1.先在项目的中补充build path -> configure Build Path .. -> Project添加需要依赖的项目
+  	2.然后补充下面这段话
+  	3.参考网址：https://www.cnblogs.com/both-eyes/p/10965246.html
+  -->
+  <dependency>
+		<groupId>com.lsq</groupId>
+		<artifactId>lsq-service</artifactId>
+		<version>1.0.1-SNAPSHOT</version>
+	</dependency>
+  
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
