@@ -1,0 +1,15 @@
+1. 在父类的pom的补充:
+	<modules>
+        <module>lsq-modules1</module>
+		<module>lsq-modules2</module>
+    </modules>
+	
+	module 后跟着是子项目中的artifactId还是文件名?? 
+	
+2. 在子类的pom中补充:
+	<parent>
+		<groupId>com.lsq</groupId>
+		<artifactId>lsq-more-modules-demo</artifactId>
+		<version>1.0.1-SNAPSHOT</version>
+	</parent>
+	把原来的parent信息替换掉,上面的信息与父类对应的信息一致即可
