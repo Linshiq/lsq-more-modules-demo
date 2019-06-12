@@ -13,3 +13,6 @@
 		<version>1.0.1-SNAPSHOT</version>
 	</parent>
 	把原来的parent信息替换掉,上面的信息与父类对应的信息一致即可
+	
+
+3. 多项目依赖注意看lsq-web中的pom文件
